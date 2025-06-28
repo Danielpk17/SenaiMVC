@@ -3,38 +3,42 @@
   "WorkspaceRootPath": "C:\\Users\\daniel_piva\\Desktop\\TraineeAPI\\SenaiMvc\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{632A82F0-8A16-4AE5-948D-9A10AA29BEEF}|SenaiMvc.csproj|c:\\users\\daniel_piva\\desktop\\traineeapi\\senaimvc\\views\\escola\\form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{632A82F0-8A16-4AE5-948D-9A10AA29BEEF}|SenaiMvc.csproj|solutionrelative:views\\escola\\form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{632A82F0-8A16-4AE5-948D-9A10AA29BEEF}|SenaiMvc.csproj|c:\\users\\daniel_piva\\desktop\\traineeapi\\senaimvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{632A82F0-8A16-4AE5-948D-9A10AA29BEEF}|SenaiMvc.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{632A82F0-8A16-4AE5-948D-9A10AA29BEEF}|SenaiMvc.csproj|c:\\users\\daniel_piva\\desktop\\traineeapi\\senaimvc\\models\\escola\\enderecomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{632A82F0-8A16-4AE5-948D-9A10AA29BEEF}|SenaiMvc.csproj|solutionrelative:models\\escola\\enderecomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{632A82F0-8A16-4AE5-948D-9A10AA29BEEF}|SenaiMvc.csproj|c:\\users\\daniel_piva\\desktop\\traineeapi\\senaimvc\\models\\escola\\escolamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{632A82F0-8A16-4AE5-948D-9A10AA29BEEF}|SenaiMvc.csproj|solutionrelative:models\\escola\\escolamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{632A82F0-8A16-4AE5-948D-9A10AA29BEEF}|SenaiMvc.csproj|c:\\users\\daniel_piva\\desktop\\traineeapi\\senaimvc\\models\\escola\\enderecomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{632A82F0-8A16-4AE5-948D-9A10AA29BEEF}|SenaiMvc.csproj|solutionrelative:models\\escola\\enderecomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{632A82F0-8A16-4AE5-948D-9A10AA29BEEF}|SenaiMvc.csproj|c:\\users\\daniel_piva\\desktop\\traineeapi\\senaimvc\\views\\escola\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{632A82F0-8A16-4AE5-948D-9A10AA29BEEF}|SenaiMvc.csproj|solutionrelative:views\\escola\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{632A82F0-8A16-4AE5-948D-9A10AA29BEEF}|SenaiMvc.csproj|c:\\users\\daniel_piva\\desktop\\traineeapi\\senaimvc\\views\\escola\\form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{632A82F0-8A16-4AE5-948D-9A10AA29BEEF}|SenaiMvc.csproj|solutionrelative:views\\escola\\form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{632A82F0-8A16-4AE5-948D-9A10AA29BEEF}|SenaiMvc.csproj|c:\\users\\daniel_piva\\desktop\\traineeapi\\senaimvc\\controllers\\escolacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{632A82F0-8A16-4AE5-948D-9A10AA29BEEF}|SenaiMvc.csproj|solutionrelative:controllers\\escolacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85D55E66-4339-4FC4-ABEA-9E7CA98EDCC2}|..\\SenaiMvc.Service\\SenaiMvc.Service.csproj|c:\\users\\daniel_piva\\desktop\\traineeapi\\senaimvc.service\\servicos\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{632A82F0-8A16-4AE5-948D-9A10AA29BEEF}|SenaiMvc.csproj|c:\\users\\daniel_piva\\desktop\\traineeapi\\senaimvc\\models\\escola\\estadosibge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{632A82F0-8A16-4AE5-948D-9A10AA29BEEF}|SenaiMvc.csproj|solutionrelative:models\\escola\\estadosibge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85D55E66-4339-4FC4-ABEA-9E7CA98EDCC2}|..\\SenaiMvc.Service\\SenaiMvc.Service.csproj|c:\\users\\daniel_piva\\desktop\\traineeapi\\senaimvc.service\\interfaces\\iapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{632A82F0-8A16-4AE5-948D-9A10AA29BEEF}|SenaiMvc.csproj|c:\\users\\daniel_piva\\desktop\\traineeapi\\senaimvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{632A82F0-8A16-4AE5-948D-9A10AA29BEEF}|SenaiMvc.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{632A82F0-8A16-4AE5-948D-9A10AA29BEEF}|SenaiMvc.csproj|c:\\users\\daniel_piva\\desktop\\traineeapi\\senaimvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{632A82F0-8A16-4AE5-948D-9A10AA29BEEF}|SenaiMvc.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{632A82F0-8A16-4AE5-948D-9A10AA29BEEF}|SenaiMvc.csproj|c:\\users\\daniel_piva\\desktop\\traineeapi\\senaimvc\\wwwroot\\js\\escola.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{632A82F0-8A16-4AE5-948D-9A10AA29BEEF}|SenaiMvc.csproj|solutionrelative:wwwroot\\js\\escola.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACE1D6E6-B5C9-4532-8955-6CF77022C63F}|..\\SenaiMvc.Service\\SenaiMvc.Service.csproj|c:\\users\\daniel_piva\\desktop\\traineeapi\\senaimvc.service\\servicos\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACE1D6E6-B5C9-4532-8955-6CF77022C63F}|..\\SenaiMvc.Service\\SenaiMvc.Service.csproj|c:\\users\\daniel_piva\\desktop\\traineeapi\\senaimvc.service\\interfaces\\iapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{632A82F0-8A16-4AE5-948D-9A10AA29BEEF}|SenaiMvc.csproj|c:\\users\\daniel_piva\\desktop\\traineeapi\\senaimvc\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{632A82F0-8A16-4AE5-948D-9A10AA29BEEF}|SenaiMvc.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -49,118 +53,131 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form.cshtml",
-              "DocumentMoniker": "C:\\Users\\daniel_piva\\Desktop\\TraineeAPI\\SenaiMvc\\Views\\Escola\\Form.cshtml",
-              "RelativeDocumentMoniker": "Views\\Escola\\Form.cshtml",
-              "ToolTip": "C:\\Users\\daniel_piva\\Desktop\\TraineeAPI\\SenaiMvc\\Views\\Escola\\Form.cshtml",
-              "RelativeToolTip": "Views\\Escola\\Form.cshtml",
-              "ViewState": "AgIAAA4AAAAAAAAAAADwvyUAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-14T14:24:21.835Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\daniel_piva\\Desktop\\TraineeAPI\\SenaiMvc\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\daniel_piva\\Desktop\\TraineeAPI\\SenaiMvc\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-14T14:24:04.017Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "EnderecoModel.cs",
               "DocumentMoniker": "C:\\Users\\daniel_piva\\Desktop\\TraineeAPI\\SenaiMvc\\Models\\Escola\\EnderecoModel.cs",
               "RelativeDocumentMoniker": "Models\\Escola\\EnderecoModel.cs",
               "ToolTip": "C:\\Users\\daniel_piva\\Desktop\\TraineeAPI\\SenaiMvc\\Models\\Escola\\EnderecoModel.cs",
               "RelativeToolTip": "Models\\Escola\\EnderecoModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T14:21:40.358Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EscolaModel.cs",
-              "DocumentMoniker": "C:\\Users\\daniel_piva\\Desktop\\TraineeAPI\\SenaiMvc\\Models\\Escola\\EscolaModel.cs",
-              "RelativeDocumentMoniker": "Models\\Escola\\EscolaModel.cs",
-              "ToolTip": "C:\\Users\\daniel_piva\\Desktop\\TraineeAPI\\SenaiMvc\\Models\\Escola\\EscolaModel.cs",
-              "RelativeToolTip": "Models\\Escola\\EscolaModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T14:18:38.244Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\daniel_piva\\Desktop\\TraineeAPI\\SenaiMvc\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\daniel_piva\\Desktop\\TraineeAPI\\SenaiMvc\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAABzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-14T11:42:52.595Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IApiService.cs",
-              "DocumentMoniker": "C:\\Users\\daniel_piva\\Desktop\\TraineeAPI\\SenaiMvc.Service\\Interfaces\\IApiService.cs",
-              "RelativeDocumentMoniker": "..\\SenaiMvc.Service\\Interfaces\\IApiService.cs",
-              "ToolTip": "C:\\Users\\daniel_piva\\Desktop\\TraineeAPI\\SenaiMvc.Service\\Interfaces\\IApiService.cs",
-              "RelativeToolTip": "..\\SenaiMvc.Service\\Interfaces\\IApiService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T13:18:06.494Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ApiService.cs",
-              "DocumentMoniker": "C:\\Users\\daniel_piva\\Desktop\\TraineeAPI\\SenaiMvc.Service\\Servicos\\ApiService.cs",
-              "RelativeDocumentMoniker": "..\\SenaiMvc.Service\\Servicos\\ApiService.cs",
-              "ToolTip": "C:\\Users\\daniel_piva\\Desktop\\TraineeAPI\\SenaiMvc.Service\\Servicos\\ApiService.cs",
-              "RelativeToolTip": "..\\SenaiMvc.Service\\Servicos\\ApiService.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAowCgAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T13:17:03.976Z",
+              "WhenOpened": "2025-06-28T13:42:12.335Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\daniel_piva\\Desktop\\TraineeAPI\\SenaiMvc\\Views\\Escola\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Escola\\Index.cshtml",
-              "ToolTip": "C:\\Users\\daniel_piva\\Desktop\\TraineeAPI\\SenaiMvc\\Views\\Escola\\Index.cshtml",
-              "RelativeToolTip": "Views\\Escola\\Index.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-07T11:54:05.821Z",
+              "Title": "EstadosIBGE.cs",
+              "DocumentMoniker": "C:\\Users\\daniel_piva\\Desktop\\TraineeAPI\\SenaiMvc\\Models\\Escola\\EstadosIBGE.cs",
+              "RelativeDocumentMoniker": "Models\\Escola\\EstadosIBGE.cs",
+              "ToolTip": "C:\\Users\\daniel_piva\\Desktop\\TraineeAPI\\SenaiMvc\\Models\\Escola\\EstadosIBGE.cs",
+              "RelativeToolTip": "Models\\Escola\\EstadosIBGE.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T13:42:03.994Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\daniel_piva\\Desktop\\TraineeAPI\\SenaiMvc\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\daniel_piva\\Desktop\\TraineeAPI\\SenaiMvc\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-28T13:33:14.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\daniel_piva\\Desktop\\TraineeAPI\\SenaiMvc\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\daniel_piva\\Desktop\\TraineeAPI\\SenaiMvc\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-06-21T14:23:55.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EscolaModel.cs",
+              "DocumentMoniker": "C:\\Users\\daniel_piva\\Desktop\\TraineeAPI\\SenaiMvc\\Models\\Escola\\EscolaModel.cs",
+              "RelativeDocumentMoniker": "Models\\Escola\\EscolaModel.cs",
+              "ToolTip": "C:\\Users\\daniel_piva\\Desktop\\TraineeAPI\\SenaiMvc\\Models\\Escola\\EscolaModel.cs",
+              "RelativeToolTip": "Models\\Escola\\EscolaModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T11:27:35.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Escola.js",
+              "DocumentMoniker": "C:\\Users\\daniel_piva\\Desktop\\TraineeAPI\\SenaiMvc\\wwwroot\\js\\Escola.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\Escola.js",
+              "ToolTip": "C:\\Users\\daniel_piva\\Desktop\\TraineeAPI\\SenaiMvc\\wwwroot\\js\\Escola.js",
+              "RelativeToolTip": "wwwroot\\js\\Escola.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-06-21T14:18:50.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form.cshtml",
+              "DocumentMoniker": "C:\\Users\\daniel_piva\\Desktop\\TraineeAPI\\SenaiMvc\\Views\\Escola\\Form.cshtml",
+              "RelativeDocumentMoniker": "Views\\Escola\\Form.cshtml",
+              "ToolTip": "C:\\Users\\daniel_piva\\Desktop\\TraineeAPI\\SenaiMvc\\Views\\Escola\\Form.cshtml",
+              "RelativeToolTip": "Views\\Escola\\Form.cshtml",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAQwGsAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-21T14:17:56.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IApiService.cs",
+              "DocumentMoniker": "C:\\Users\\daniel_piva\\Desktop\\TraineeAPI\\SenaiMvc.Service\\Interfaces\\IApiService.cs",
+              "RelativeDocumentMoniker": "..\\SenaiMvc.Service\\Interfaces\\IApiService.cs",
+              "ToolTip": "C:\\Users\\daniel_piva\\Desktop\\TraineeAPI\\SenaiMvc.Service\\Interfaces\\IApiService.cs",
+              "RelativeToolTip": "..\\SenaiMvc.Service\\Interfaces\\IApiService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T13:54:59.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApiService.cs",
+              "DocumentMoniker": "C:\\Users\\daniel_piva\\Desktop\\TraineeAPI\\SenaiMvc.Service\\Servicos\\ApiService.cs",
+              "RelativeDocumentMoniker": "..\\SenaiMvc.Service\\Servicos\\ApiService.cs",
+              "ToolTip": "C:\\Users\\daniel_piva\\Desktop\\TraineeAPI\\SenaiMvc.Service\\Servicos\\ApiService.cs",
+              "RelativeToolTip": "..\\SenaiMvc.Service\\Servicos\\ApiService.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAA3wCwAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T13:17:09.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "EscolaController.cs",
               "DocumentMoniker": "C:\\Users\\daniel_piva\\Desktop\\TraineeAPI\\SenaiMvc\\Controllers\\EscolaController.cs",
               "RelativeDocumentMoniker": "Controllers\\EscolaController.cs",
               "ToolTip": "C:\\Users\\daniel_piva\\Desktop\\TraineeAPI\\SenaiMvc\\Controllers\\EscolaController.cs",
               "RelativeToolTip": "Controllers\\EscolaController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAA8wDEAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAADEAAAAAAAAAAAAqwDoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T11:52:33.484Z",
+              "WhenOpened": "2025-06-21T11:23:14.778Z",
               "EditorCaption": ""
             }
           ]

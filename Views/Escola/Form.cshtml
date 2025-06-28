@@ -1,43 +1,132 @@
 ﻿@using SenaiMvc.Models.Escola
- 
 @model EscolaModel
 
-<h1 class="display-1">Escola</h1>
+<h1 class="mb-4 titulo-principal"><i class="bi bi-building"></i> Cadastro de Escola</h1>
+
+<style>
+    form {
+        background: #fff;
+        padding: 2rem;
+        border-radius: 12px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+
+    .titulo-principal {
+        font-weight: 700;
+        color: #198754;
+        font-size: 2.2rem;
+        text-shadow: 1px 1px 4px rgba(0,0,0,0.1);
+    }
+
+    .subtitulo {
+        font-weight: 600;
+        color: #0f5132;
+        border-bottom: 2px solid #198754;
+        padding-bottom: 0.5rem;
+    }
+
+    .form-control:focus,
+    .form-select:focus {
+        border-color: #198754;
+        box-shadow: 0 0 8px #198754aa;
+        outline: none;
+        transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    }
+    .btn-success {
+        transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    }
+
+        .btn-success:hover {
+            background-color: #28a745cc;
+            box-shadow: 0 0 12px #28a745cc;
+        }
+
+        .btn-success i {
+            transition: transform 0.3s ease;
+        }
+
+        .btn-success:hover i {
+            transform: rotate(20deg);
+        }
+
+    .text-danger {
+        font-weight: 600;
+        font-size: 0.875rem;
+        display: flex;
+        align-items: center;
+        gap: 0.3rem;
+        color: #dc3545;
+    }
+    .mb-3, .row.g-3 > div {
+        position: relative;
+    }
+
+        .mb-3 input:focus + label,
+        .row.g-3 > div input:focus + label,
+        .mb-3 select:focus + label,
+        .row.g-3 > div select:focus + label {
+            color: #198754;
+            transition: color 0.3s ease;
+        }
+</style>
 
 <form method="post" asp-action="Form" asp-controller="Escola">
+    <input type="hidden" asp-for="Id" />
+    <input type="hidden" asp-for="Endereco.Id" />
 
-<div class="mb-3">
-	<input type="hidden" asp-for="Id"></input>
+    <div class="mb-3">
+        <label asp-for="Nome" class="form-label">Nome da Escola</label>
+        <input type="text" class="form-control" asp-for="Nome" placeholder="Digite o nome da escola">
+        <span class="text-danger">@Html.ValidationMessageFor(m => m.Nome)</span>
+    </div>
 
-	<label  class="form-label">Email address</label>
-	<input type="text" class="form-control" asp-for="Nome">
-	@Html.ValidationMessageFor(m => m.Nome, "", new { @class = "text-danger"})
+    <hr />
 
-</div>
+    <h4 class="mt-4 mb-3 subtitulo"><i class="bi bi-geo-alt"></i> Endereço</h4>
 
-<div class="d-grid gap-2 d-md-flex justify-content-md-end">
-	<button class="btn btn-primary me-md-2" type="submit">Salvar</button>
-</div>
+    <div class="row g-3">
+        <div class="col-md-6">
+            <label asp-for="Endereco.Rua" class="form-label">Rua</label>
+            <input type="text" class="form-control" asp-for="Endereco.Rua" placeholder="Ex: Av. Paulista">
+            <span class="text-danger">@Html.ValidationMessageFor(m => m.Endereco.Rua)</span>
+        </div>
 
-<div class="row">
-	<div class="col-md-5">
-		<label class="form-label">Rua</label>
-		<input type="text" class="form-control" asp-for="Endereco.Rua">
-	</div>
-	<div class="col-md-5">
-		<label class="form-label">Bairro</label>
-		<input type="text" class="form-control" asp-for="Endereco.Bairro">
-	</div>
-	<div class="col-md-2">
-		<label class="form-label">Número</label>
-		<input type="text" class="form-control" asp-for="Endereco.Numero">
-	</div>
-	<div class="row">
-	<div class="col-md-6">
-		<label class="form-label">Estado</label>
-		<input type="text" class="form-control" asp-for="Endereco.Estado">
-	<div class="col-md-6">
-		<label class="form-label">Cidade</label>
-		<input type="text" class="form-control" asp-for="Endereco.Cidade">
-	</div>
+        <div class="col-md-4">
+            <label asp-for="Endereco.Bairro" class="form-label">Bairro</label>
+            <input type="text" class="form-control" asp-for="Endereco.Bairro" placeholder="Ex: Centro">
+            <span class="text-danger">@Html.ValidationMessageFor(m => m.Endereco.Bairro)</span>
+        </div>
+
+        <div class="col-md-2">
+            <label asp-for="Endereco.Numero" class="form-label">Número</label>
+            <input type="number" class="form-control" asp-for="Endereco.Numero" placeholder="Ex: 123">
+            <span class="text-danger">@Html.ValidationMessageFor(m => m.Endereco.Numero)</span>
+        </div>
+
+        <div class="col-md-6">
+            <label asp-for="Endereco.Estado" class="form-label">Estado</label>
+            <select asp-for="Endereco.Estado" asp-items="Model.Estados" class="form-select" onchange="escola.carregarCidadesPorUf(this.value)">
+                <option value="">-- Selecione um Estado --</option>
+            </select>
+            <span class="text-danger">@Html.ValidationMessageFor(m => m.Endereco.Estado)</span>
+        </div>
+
+        <div class="col-md-6">
+            <label asp-for="Endereco.Cidade" class="form-label">Cidade</label>
+            <select asp-for="Endereco.Cidade" asp-items="Model.Cidades" class="form-select">
+                <option value="">-- Selecione uma Cidade --</option>
+            </select>
+            <span class="text-danger">@Html.ValidationMessageFor(m => m.Endereco.Cidade)</span>
+        </div>
+    </div>
+
+    <div class="d-flex justify-content-end mt-4">
+        <button type="submit" class="btn btn-success">
+            <i class="bi bi-check-circle"></i> Salvar
+        </button>
+    </div>
 </form>
+
+@section Scripts {
+    <script src="~/js/Escola.js"></script>
+}

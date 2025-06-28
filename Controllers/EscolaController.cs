@@ -1,4 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using Newtonsoft.Json;
 using SenaiMvc.Models.Escola;
 using SenaiMvc.Service.Interfaces;
 
@@ -12,35 +14,47 @@ namespace SenaiMvc.Controllers
         public EscolaController(IApiService apiService)
         {
             _apiService = apiService;
-        }   
-
-        public async Task <IActionResult> Index()
+        }
+        public async Task<IActionResult> Index()
         {
             var escolas = await _apiService.GetAsync<List<EscolaModel>>("/Escola/buscar-todos");
             return View(escolas);
         }
 
         [HttpGet]
-        public IActionResult Form() 
+        public async Task<IActionResult> Form()
         {
             var model = new EscolaModel();
+            await AlimentarEstados(model);
             return View(model);
         }
 
         [HttpPost]
-        public async Task <IActionResult> Form(EscolaModel model)
+        public async Task<IActionResult> Form(EscolaModel model)
         {
-            if (ModelState.IsValid) 
+            if (ModelState.IsValid)
             {
-                var retorno =  await _apiService.PostAsync<EscolaModel>("Escola", model);
+                if (model.Endereco.Id == null)
+                    model.Endereco.Id = 0;
+                var retorno = await _apiService.PostAsync<EscolaModel>("Escola", model);
                 return RedirectToAction("Index");
             }
+            await AlimentarEstados(model);
             return View();
         }
         [HttpGet]
         public async Task<IActionResult> Editar(long Id)
         {
             var model = await _apiService.GetAsync<EscolaModel>($"/Escola/ObterPorId?id={Id}");
+            if (model.Endereco == null)
+            {
+                model.Endereco = new EnderecoModel();
+                await AlimentarEstados(model);
+            }
+            if (!string.IsNullOrEmpty(model.Endereco.Estado))
+            {
+                await AlimentarCidades(model, model.Endereco.Estado);
+            }
             return View("Form", model);
         }
         [HttpGet]
@@ -48,6 +62,36 @@ namespace SenaiMvc.Controllers
         {
             var model = await _apiService.DeleteAsync($"/Escola?id={Id}");
             return RedirectToAction("Index");
+        }
+        private async Task AlimentarEstados(EscolaModel model)
+        {
+            var estados = await _apiService.PegarEstados<EstadosIBGE>();
+            model.Estados = estados.OrderBy(e => e.Nome)
+                .Select(e => new SelectListItem
+                {
+                    Value = e.Sigla,
+                    Text = e.Nome
+                })
+               .ToList();
+        }
+        private async Task AlimentarCidades(EscolaModel model, string uf)
+        {
+            var cidades = await _apiService.AlimentarCidades<CidadeIBGE>(uf);
+            model.Cidades = cidades.OrderBy(c => c.Nome).Select(c => new SelectListItem
+            {
+                Value = c.Id.ToString(),
+                Text = c.Nome,
+                Selected = c.Id.ToString() == model.Endereco.Cidade.ToString()
+            })
+            .ToList();            
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> ObterCidadesPorUf(string uf)
+        {
+            var cidades = await _apiService.AlimentarCidades<CidadeIBGE>(uf);
+            var resultado = cidades.OrderBy(c => c.Nome).Select(c => new { id = c.Id, nome = c.Nome }).ToList();
+            return Json(resultado);
         }
     }
 }
